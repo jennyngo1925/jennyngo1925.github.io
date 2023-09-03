@@ -14,9 +14,10 @@
 }
 
 .body-container {
+  background-color: rgb(255, 218, 230);
   display: flex;
   justify-content: space-between;
-  padding: 20px 200px 80px 200px;
+  padding: 80px 200px 80px 200px;
 }
 
 hr {
@@ -112,8 +113,22 @@ a:hover {
   padding-right: 100px;
 }
 
+.bullet-points {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
 p.about {
-  padding-right: 100px;
+  text-align: center;
+  padding-right: 200px;
+}
+
+.hobbies {
+  text-align: center;
+}
+
+.left {
+  padding-left: 200px;
 }
 
 dl {
