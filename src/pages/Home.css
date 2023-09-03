@@ -1,6 +1,6 @@
 .head {
   background-color: rgb(255, 218, 230);
-  padding: 50px 50px;
+  padding: 50px;
 }
 
 .logo {
@@ -16,7 +16,7 @@
 .body-container {
   display: flex;
   justify-content: space-between;
-  padding: 100px 100px;
+  padding: 20px 200px 80px 200px;
 }
 
 hr {
@@ -151,4 +151,21 @@ dd {
   column-count: 2;
   float: left;
   padding-right: 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Quicksand';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.copyright {
+  position: relative;
+  text-align: center;
 }
