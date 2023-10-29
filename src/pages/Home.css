@@ -1,3 +1,17 @@
+body {
+  background-color: rgb(255, 218, 230);
+  margin: 0;
+  font-family: "Quicksand";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.body-container {
+  background-color: rgb(255, 218, 230);
+  display: flex;
+  justify-content: space-between;
+}
+
 .head {
   background-color: rgb(255, 218, 230);
   padding: 3%;
@@ -9,10 +23,10 @@
   text-align: left;
 }
 
-.body-container {
-  background-color: rgb(255, 218, 230);
-  display: flex;
-  justify-content: space-between;
+.home-logo {
+  width: 45px;
+  float: left;
+  padding-right: 10px;
 }
 
 hr {
@@ -22,11 +36,6 @@ hr {
   border-top: 1px solid hotpink;
   margin: 1em 0;
   padding: 0;
-}
-
-.foot {
-  background-color: rgb(255, 218, 230);
-  padding: 50px 50px;
 }
 
 .butt {
@@ -53,16 +62,17 @@ nav {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .nav-links {
   display: flex;
   margin-left: auto;
 }
 
-.topbutt {
+.nav-links-margin {
   margin: 0 8px;
 }
 
-.quad-col {
+.grid {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
@@ -71,7 +81,7 @@ nav {
   padding: 30px;
 }
 
-.about {
+.text {
   max-width: 750px;
   margin: auto;
 }
@@ -93,28 +103,9 @@ a:hover {
   color: inherit;
 }
 
-.bullet-points {
+.grid-text {
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.hobbies {
-  text-align: center;
-}
-
-.home-logo {
-  width: 45px;
-  column-count: 2;
-  float: left;
-  padding-right: 10px;
-}
-
-body {
-  background-color: rgb(255, 218, 230);
-  margin: 0;
-  font-family: "Quicksand";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .copyright {
@@ -123,7 +114,7 @@ body {
 }
 
 @media all and (max-width: 980px) {
-  .quad-col {
+  .grid {
     display: grid;
     text-align: center;
     grid-auto-flow: row;
@@ -151,12 +142,12 @@ body {
     padding-bottom: 10px;
   }
   
-  .bullet-points {
+  .grid-text {
     padding-left: 0;
     padding-right: 0;
   }
   
-  .about {
+  .text {
     max-width: 750px;
     margin: 0;
   }
