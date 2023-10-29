@@ -113,6 +113,10 @@ a:hover {
   position: relative;
 }
 
+textarea {
+  width: 50%;
+}
+
 @media all and (max-width: 980px) {
   .grid {
     display: grid;
@@ -141,12 +145,12 @@ a:hover {
     row-gap: 10px;
     padding-bottom: 10px;
   }
-  
+
   .grid-text {
     padding-left: 0;
     padding-right: 0;
   }
-  
+
   .text {
     max-width: 750px;
     margin: 0;
@@ -154,5 +158,9 @@ a:hover {
 
   h2 {
     text-align: center;
+  }
+
+  textarea {
+    width: 100%;
   }
 }
