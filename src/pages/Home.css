@@ -76,7 +76,7 @@ nav {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
-  justify-items: stretch;
+  justify-items: center;
   align-items: center;
   padding: 30px;
 }
