@@ -73,7 +73,7 @@ nav {
 
 .about {
   max-width: 750px;
-  /* margin: auto; */
+  margin: auto;
 }
 
 a:link {
@@ -159,5 +159,9 @@ body {
   .about {
     max-width: 750px;
     margin: 0;
+  }
+
+  h2 {
+    text-align: center;
   }
 }
