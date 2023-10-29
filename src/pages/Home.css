@@ -69,7 +69,7 @@ nav {
 }
 
 .nav-links-margin {
-  margin: 0 8px;
+  margin: 0 20px;
 }
 
 .grid {
@@ -99,12 +99,25 @@ a:link {
   text-decoration: none;
 }
 
-a {
-  color: black;
+a:hover {
+    color: white;
 }
 
-a:hover {
-  color: white;
+.pagination a {
+  color: black;
+  float: left;
+  padding: 4px 8px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: white;
+  border-radius: 10px;
 }
 
 .contact {
