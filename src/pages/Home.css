@@ -76,13 +76,13 @@ nav {
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: auto;
-  justify-items: center;
+  justify-items: stretch;
   align-items: center;
   padding: 30px;
 }
 
 .text {
-  max-width: 750px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -117,13 +117,24 @@ textarea {
   width: 50%;
 }
 
+.container {
+  position: relative;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media all and (max-width: 980px) {
   .grid {
     display: grid;
     text-align: center;
     grid-auto-flow: row;
     row-gap: 60px;
-    justify-items: center;
   }
 
   img {
@@ -154,6 +165,10 @@ textarea {
   .text {
     max-width: 750px;
     margin: 0;
+  }
+
+  .small {
+    font-size: xx-small;
   }
 
   h2 {
