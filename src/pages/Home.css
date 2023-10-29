@@ -71,10 +71,9 @@ nav {
   padding: 30px;
 }
 
-div.about {
-  max-width: 800px;
-  /* width:80%; */
-  margin: auto;
+.about {
+  max-width: 750px;
+  /* margin: auto; */
 }
 
 a:link {
@@ -132,6 +131,10 @@ body {
     justify-items: center;
   }
 
+  img {
+    width: 300px;
+  }
+
   nav {
     padding-top: 50px;
     display: grid;
@@ -146,5 +149,15 @@ body {
     grid-auto-flow: row;
     row-gap: 10px;
     padding-bottom: 10px;
+  }
+  
+  .bullet-points {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .about {
+    max-width: 750px;
+    margin: 0;
   }
 }
