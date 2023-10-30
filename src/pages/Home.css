@@ -53,7 +53,7 @@ hr {
 }
 
 .butt:active {
-  color: black;
+  transform: translateY(4px);
 }
 
 nav {
