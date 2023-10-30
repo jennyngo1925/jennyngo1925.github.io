@@ -211,11 +211,6 @@ h1 {
   margin-left: 10%;
 }
 
-/* .margins {
-  margin-right: 10%;
-  margin-left: 10%;
-} */
-
 .text {
   max-width: 700px;
   margin: auto;
@@ -303,7 +298,8 @@ textarea {
     display: grid;
     text-align: center;
     grid-auto-flow: row;
-    row-gap: 60px;
+    row-gap: 60px;  
+    padding: 30px;
   }
 
   nav {
