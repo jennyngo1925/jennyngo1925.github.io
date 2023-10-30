@@ -13,7 +13,79 @@
     />
   </head>
 
-  <nav class="head hover-logo">
+  <div class="relative show-on-mobile">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
+      <a
+        href="https://jennyngo1925.github.io/website/public"
+        class="nav-links-margin"
+      >
+        Home
+      </a>
+      <a
+        href="https://jennyngo1925.github.io/website/src/pages/about.html"
+        class="nav-links-margin"
+      >
+        About Me
+      </a>
+      <a
+        href="https://jennyngo1925.github.io/website/src/pages/resume.html"
+        class="nav-links-margin"
+      >
+        Resume
+      </a>
+      <a
+        href="https://jennyngo1925.github.io/website/src/pages/projects.html"
+        class="nav-links-margin"
+      >
+        Projects
+      </a>
+      <a
+        href="https://jennyngo1925.github.io/website/src/pages/artwork.html"
+        class="nav-links-margin"
+      >
+        Artwork
+      </a>
+      <a
+        href="https://jennyngo1925.github.io/website/src/pages/contact.html"
+        class="nav-links-margin"
+      >
+        Contact
+      </a>
+    </div>
+    <div class="head hover-logo">
+      <a href="https://jennyngo1925.github.io/website/public" class="logo">
+        <img
+          src="../images/strawberry.png"
+          alt=""
+          width="60px"
+          class="home-logo"
+        />
+        Jenny
+        <br />
+        Ngo
+      </a>
+      <div style="text-align: right">
+        <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+          >&#9776;</span
+        >
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "100%";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+
+  <nav class="show-on-desktop head hover-logo">
     <a href="https://jennyngo1925.github.io/website/public" class="logo">
       <img
         src="../images/strawberry.png"
@@ -69,7 +141,7 @@
     <center>
       <h1>Artwork</h1>
     </center>
-    
+
     <div class="grid">
       <div class="flip-card">
         <div class="flip-card-inner">
@@ -78,9 +150,7 @@
           </div>
           <div class="flip-card-back">
             <h2>Cherry Blossoms 🌸</h2>
-            <p>
-              Cherry Blossoms has to be one of the most beautiful plants.
-            </p>
+            <p>Cherry Blossoms has to be one of the most beautiful plants.</p>
           </div>
         </div>
       </div>
@@ -98,7 +168,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -106,13 +176,11 @@
           </div>
           <div class="flip-card-back">
             <h2>Cake Bouquet 🍰💐</h2>
-            <p>
-              Perfect for a loved one!
-            </p>
+            <p>Perfect for a loved one!</p>
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -120,9 +188,7 @@
           </div>
           <div class="flip-card-back">
             <h2>French Macarons 🍬</h2>
-            <p>
-              Not to be confused with macaroons 🤔
-            </p>
+            <p>Not to be confused with macaroons 🤔</p>
           </div>
         </div>
       </div>
@@ -136,13 +202,11 @@
           </div>
           <div class="flip-card-back">
             <h2>Bee Keychain 🐝</h2>
-            <p>
-              Buzz Buzz
-            </p>
+            <p>Buzz Buzz</p>
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -151,12 +215,14 @@
           <div class="flip-card-back">
             <h2>Taiyaki Ice Cream Keychains 🐟🍦</h2>
             <p>
-              Have you ever heard of taiyaki? It is a famous dessert from Japan- filled with custard or red bean, thes fish shaped bread are delicious and do NOT taste like fish!
+              Have you ever heard of taiyaki? It is a famous dessert from Japan-
+              filled with custard or red bean, thes fish shaped bread are
+              delicious and do NOT taste like fish!
             </p>
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -164,13 +230,11 @@
           </div>
           <div class="flip-card-back">
             <h2>Clay Pins 🍄🐄🐸</h2>
-            <p>
-              A few of my favorite clay pins!
-            </p>
+            <p>A few of my favorite clay pins!</p>
           </div>
         </div>
       </div>
-      
+
       <div class="flip-card">
         <div class="flip-card-inner">
           <div class="flip-card-front">
@@ -179,7 +243,8 @@
           <div class="flip-card-back">
             <h2>Seashell Keychain 🐚</h2>
             <p>
-              Made with epoxy resin, this seashell keychain is has a nice, translucent ombre.
+              Made with epoxy resin, this seashell keychain is has a nice,
+              translucent ombre.
             </p>
           </div>
         </div>
@@ -194,9 +259,7 @@
           </div>
           <div class="flip-card-back">
             <h2>Cloud Paintings ☁️</h2>
-            <p>
-              I may have an obsession with clouds...
-            </p>
+            <p>I may have an obsession with clouds...</p>
           </div>
         </div>
       </div>
@@ -209,7 +272,8 @@
           <div class="flip-card-back">
             <h2>Painted Shoes 👟</h2>
             <p>
-              First time painting shoes! I painted the characters Melody and Kuromi.
+              First time painting shoes! I painted the characters Melody and
+              Kuromi.
             </p>
           </div>
         </div>
@@ -222,9 +286,7 @@
           </div>
           <div class="flip-card-back">
             <h2>Bubble Gum 🍬</h2>
-            <p>
-              A painting inspired by ira.exe on Instagram.
-            </p>
+            <p>A painting inspired by ira.exe on Instagram.</p>
           </div>
         </div>
       </div>

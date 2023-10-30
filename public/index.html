@@ -74,8 +74,79 @@
       data-speed="2"
       class="layer section-img"
     />
+    <div class="relative show-on-mobile">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+          >&times;</a
+        >
+        <a
+          href="https://jennyngo1925.github.io/website/public"
+          class="nav-links-margin"
+        >
+          Home
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/about.html"
+          class="nav-links-margin"
+        >
+          About Me
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/resume.html"
+          class="nav-links-margin"
+        >
+          Resume
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/projects.html"
+          class="nav-links-margin"
+        >
+          Projects
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/artwork.html"
+          class="nav-links-margin"
+        >
+          Artwork
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/contact.html"
+          class="nav-links-margin"
+        >
+          Contact
+        </a>
+      </div>
+      <div class="head hover-logo">
+        <a href="https://jennyngo1925.github.io/website/public" class="logo">
+          <img
+            src="../src/images/strawberry.png"
+            alt=""
+            width="60px"
+            class="home-logo"
+          />
+          Jenny
+          <br />
+          Ngo
+        </a>
+        <div style="text-align: right">
+          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+            >&#9776;</span
+          >
+        </div>
+      </div>
+    </div>
 
-    <nav class="head hover-logo">
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+    </script>
+
+    <nav class="show-on-desktop head hover-logo">
       <a href="https://jennyngo1925.github.io/website/public" class="logo">
         <img
           src="../src/images/strawberry.png"
