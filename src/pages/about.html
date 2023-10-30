@@ -14,104 +14,112 @@
   </head>
 
   <div>
-    <img src="../images/stars1.png" data-speed="-5" class="layer section-img">
-    <img src="../images/stars2.png" data-speed="5" class="layer section-img">
-    <img src="../images/stars3.png" data-speed="2" class="layer section-img">
-    <img src="../images/stars4.png" data-speed="6" class="layer section-img">
-    <img src="../images/stars5.png" data-speed="8" class="layer section-img">
-    <img src="../images/stars6.png" data-speed="-2" class="layer section-img">
-    <img src="../images/stars7.png" data-speed="9" class="layer section-img">
-    <img src="../images/stars8.png" data-speed="6" class="layer section-img">
-    <img src="../images/stars9.png" data-speed="-7" class="layer section-img">
-    <img src="../images/stars10.png" data-speed="5" class="layer section-img">
-    <img src="../images/stars11.png" data-speed="2" class="layer section-img">
-    <img src="../images/stars12.png" data-speed="2" class="layer section-img">
+    <img src="../images/stars1.png" data-speed="-5" class="layer section-img" />
+    <img src="../images/stars2.png" data-speed="5" class="layer section-img" />
+    <img src="../images/stars3.png" data-speed="2" class="layer section-img" />
+    <img src="../images/stars4.png" data-speed="6" class="layer section-img" />
+    <img src="../images/stars5.png" data-speed="8" class="layer section-img" />
+    <img src="../images/stars6.png" data-speed="-2" class="layer section-img" />
+    <img src="../images/stars7.png" data-speed="9" class="layer section-img" />
+    <img src="../images/stars8.png" data-speed="6" class="layer section-img" />
+    <img src="../images/stars9.png" data-speed="-7" class="layer section-img" />
+    <img src="../images/stars10.png" data-speed="5" class="layer section-img" />
+    <img src="../images/stars11.png" data-speed="2" class="layer section-img" />
+    <img src="../images/stars12.png" data-speed="2" class="layer section-img" />
 
-  <nav class="head hover-logo">
-    <a href="https://jennyngo1925.github.io/website/public" class="logo">
-      <img
-        src="../images/strawberry.png"
-        alt=""
-        width="60px"
-        class="home-logo"
-      />
-      Jenny
-      <br />
-      Ngo
-    </a>
-    <div class="nav-links pagination">
-      <a href="https://jennyngo1925.github.io/website/public" class="nav-links-margin">
-        Home
+    <nav class="head hover-logo">
+      <a href="https://jennyngo1925.github.io/website/public" class="logo">
+        <img
+          src="../images/strawberry.png"
+          alt=""
+          width="60px"
+          class="home-logo"
+        />
+        Jenny
+        <br />
+        Ngo
       </a>
-      <a
-        href="https://jennyngo1925.github.io/website/src/pages/about.html"
-        class="nav-links-margin"
-      >
-        About Me
-      </a>
-      <a
-        href="https://jennyngo1925.github.io/website/src/pages/resume.html"
-        class="nav-links-margin"
-      >
-        Resume
-      </a>
-      <a
-        href="https://jennyngo1925.github.io/website/src/pages/projects.html"
-        class="nav-links-margin"
-      >
-        Projects
-      </a>
-      <a
-        href="https://jennyngo1925.github.io/website/src/pages/artwork.html"
-        class="nav-links-margin"
-      >
-        Artwork
-      </a>
-      <a
-        href="https://jennyngo1925.github.io/website/src/pages/contact.html"
-        class="nav-links-margin"
-      >
-        Contact
-      </a>
-    </div>
-  </nav>
-</div>
+      <div class="nav-links pagination">
+        <a
+          href="https://jennyngo1925.github.io/website/public"
+          class="nav-links-margin"
+        >
+          Home
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/about.html"
+          class="nav-links-margin"
+        >
+          About Me
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/resume.html"
+          class="nav-links-margin"
+        >
+          Resume
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/projects.html"
+          class="nav-links-margin"
+        >
+          Projects
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/artwork.html"
+          class="nav-links-margin"
+        >
+          Artwork
+        </a>
+        <a
+          href="https://jennyngo1925.github.io/website/src/pages/contact.html"
+          class="nav-links-margin"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+  </div>
 
   <body>
     <center>
       <h1>About Me</h1>
     </center>
-    <div style="text-align: center">
-      <img src="../images/me1.png" width="200px" />
-    </div>
-    <div class="text">
-      <p align="center" position="relative">
-        Hi! My name is Jenny Ngo and I am a senior at the University of Georgia
-        studying computer science. During both my academic journey and
-        professional experience, I have honed my abilities in various
-        programming languages, including Java, JavaScript, TypeScript, C#, and
-        C++. At Goldman Sachs, I had the opportunity to work on an automated
-        task scheduler using Node.js, TypeScript, MongoDB, and Jest, eliminating
-        manual tasks to 0!! These experiences have enabled me to contribute
-        effectively to both individual and team-based projects, as well as to
-        deliver high-quality software solutions. I'm eager to apply my technical
-        expertise and my drive for continuous learning to contribute to make a
-        real impact.
-      </p>
-      <br>
+    <div class="grid">
+      <div>
+        <img src="../images/me1.png" width="200px" />
+      </div>
     </div>
 
-  <script type="text/JavaScript">
-    document.addEventListener("mousemove", parallax);
-    function parallax(e) {
-      document.querySelectorAll(".layer").forEach(function(move){
-        var moving_value = move.getAttribute("data-speed");
-        var x = (e.clientX * moving_value) / 50;
-        var y = (e.clientY * moving_value) / 50;
-        move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)"
-      });
-    }
-  </script>
+    <div class="grid">
+      <div class="text">
+        <p align="center" position="relative">
+          Hi! My name is Jenny Ngo and I am a senior at the University of
+          Georgia studying computer science. During both my academic journey and
+          professional experience, I have honed my abilities in various
+          programming languages, including Java, JavaScript, TypeScript, C#, and
+          C++. At Goldman Sachs, I had the opportunity to work on an automated
+          task scheduler using Node.js, TypeScript, MongoDB, and Jest,
+          eliminating manual tasks to 0!! These experiences have enabled me to
+          contribute effectively to both individual and team-based projects, as
+          well as to deliver high-quality software solutions. I'm eager to apply
+          my technical expertise and my drive for continuous learning to
+          contribute to make a real impact.
+        </p>
+        <br />
+      </div>
+    </div>
+
+    <script type="text/JavaScript">
+      document.addEventListener("mousemove", parallax);
+      function parallax(e) {
+        document.querySelectorAll(".layer").forEach(function(move){
+          var moving_value = move.getAttribute("data-speed");
+          var x = (e.clientX * moving_value) / 50;
+          var y = (e.clientY * moving_value) / 50;
+          move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)"
+        });
+      }
+    </script>
 
     <div>
       <hr />
