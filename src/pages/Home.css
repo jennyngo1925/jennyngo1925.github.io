@@ -333,6 +333,47 @@ textarea {
   border: 3px solid rgb(255, 126, 167);
 }
 
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Quicksand";
+}
+
+input[type=submit] {
+  background-color: rgb(255, 218, 230);
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Quicksand";
+}
+
+input[type=submit]:hover {
+  background-color: rgb(255, 218, 230);
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+  position: relative;
+  max-width: 700px;
+}
+
+.starlabel label:after {
+  content:" *";
+  color: red;
+}
+
 @media all and (max-width: 980px) {
   .grid {
     display: grid;

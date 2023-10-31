@@ -153,6 +153,34 @@
 
   <body>
     <center>
+    <h1>Contact Form</h1>
+
+<div class="container-form starlabel" style="text-align: left">
+  <form action="mailto:jennyngo1925@gmail.com" method="GET">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="country">Country</label>
+    <select id="country" name="country" required>
+      <option value="" selected>Select Country</option>
+      <option value="usa">USA</option>
+      <option value="canada">Canada</option>
+      <option value="australia">Australia</option>
+    </select>
+
+    <label for="subject">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required *></textarea>
+
+    <div style="text-align: center;">
+    <input type="submit" value="Submit">
+  </div>
+  </form>
+</center>
+</div>
+    <!-- <center>
       <h1>Contact</h1>
     </center>
     <div style="text-align: center">
@@ -180,7 +208,7 @@
     </div>
     <br />
     <br />
-    <br />
+    <br /> -->
 
     <script type="text/JavaScript">
       document.addEventListener("mousemove", parallax);
