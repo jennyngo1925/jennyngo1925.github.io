@@ -105,6 +105,16 @@ h3{
   padding: 30px;
 }
 
+.grid-project {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: auto;
+  justify-items: center;
+  align-items: start;
+  padding: 0px 30px;
+}
+
+
 .grid-landing {
   display: grid;
   grid-auto-flow: column;
