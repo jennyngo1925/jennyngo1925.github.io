@@ -163,7 +163,7 @@
         <div style="text-align: center">
         <img src="../images/thanks.png" width="200px"/>
       </div>
-        <form action="mailto:jennyngo1925@gmail.com" method="GET">
+        <form action="mailto:jennyngo1925@gmail.com" method="GET" enctype="text/plain">
           <label for="fname">Name</label>
           <input
             type="text"
@@ -190,10 +190,21 @@
             <option value="australia">Australia</option>
           </select>
 
-          <label for="subject">Message</label>
-          <textarea
+          <label for="subject">Subject</label>
+          <input
+            type="subject"
             id="subject"
             name="subject"
+            placeholder="Subject..."
+            required
+            * 
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            type="text"
+            id="message"
+            name="message"
             placeholder="Write something..."
             style="height: 200px"
             required
@@ -201,7 +212,8 @@
           ></textarea>
 
           <div style="text-align: center">
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Send">
+            <!-- <input type="submit" value="Submit" /> -->
           </div>
         </form>
       </div>
